@@ -3,26 +3,18 @@
 module.exports = {
   purge: ['./src/**/*.{njk,md,js}'],
   darkMode: false, // or 'media' or 'class'
-  mode: 'jit',
+  // mode: 'jit',
   theme: {
-        fontFamily: {
-
-          display: ['Oswald', "sans-serif"],
-
-          body: ['"Open Sans"', "system-ui", "sans-serif"],
-        }
-      }
-    }
     extend: {
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            color: 'inherit',
-          },
-        },
-      }),
+      // typography: (theme) => ({
+      //   DEFAULT: {
+      //     css: {
+      //       color: 'inherit',
+      //     },
+      //   },
+      // }),
       colors: {
-        rouge: '#46100e',
+        'en-rouge': '#c61e1e',
       },
     },
     container: {
