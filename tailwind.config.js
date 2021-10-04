@@ -13,6 +13,9 @@ module.exports = {
           },
         },
       }),
+      colors: {
+        rouge: '#46100e',
+      },
     },
     container: {
       center: true,
