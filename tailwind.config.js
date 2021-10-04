@@ -5,6 +5,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   mode: 'jit',
   theme: {
+        fontFamily: {
+
+          display: ['Oswald', "sans-serif"],
+
+          body: ['"Open Sans"', "system-ui", "sans-serif"],
+        }
+      }
+    }
     extend: {
       typography: (theme) => ({
         DEFAULT: {
